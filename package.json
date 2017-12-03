@@ -13,14 +13,18 @@
     "luatex",
     "context"
   ],
-  "activationCommands": {
-    "atom-workspace": "linter-latex:compile"
-  },
   "repository": "https://github.com/reujab/linter-latex",
   "license": "Unlicense",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
   }
 }
