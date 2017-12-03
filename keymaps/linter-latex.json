@@ -1,5 +1,0 @@
-{
-  "atom-workspace atom-text-editor[data-grammar~=latex]": {
-    "f5": "linter-latex:compile"
-  }
-}
