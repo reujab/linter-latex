@@ -15,7 +15,6 @@ rules:
   no-compare-neg-zero: error
   no-cond-assign: error
   no-console: off
-  no-constant-condition: error
   no-control-regex: error
   no-debugger: off
   no-dupe-args: error
