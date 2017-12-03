@@ -1,0 +1,26 @@
+{
+  "name": "linter-latex",
+  "main": "./lib/linter-latex",
+  "version": "0.0.0",
+  "description": "Compile and lint LaTeX files",
+  "keywords": [
+    "latex",
+    "compile",
+    "linter",
+    "lint",
+    "pdflatex",
+    "xelatex",
+    "luatex",
+    "context"
+  ],
+  "activationCommands": {
+    "atom-workspace": "linter-latex:compile"
+  },
+  "repository": "https://github.com/reujab/linter-latex",
+  "license": "Unlicense",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
