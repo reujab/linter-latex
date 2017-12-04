@@ -27,5 +27,25 @@
         "2.0.0": "provideLinter"
       }
     }
+  },
+  "configSchema": {
+    "compiler": {
+      "description": "Tool used to compile LaTeX into a PDF",
+      "type": "string",
+      "default": "pdflatex",
+      "enum": [
+        {"value": "pdflatex", "description": "pdflatex"},
+        {"value": "xelatex", "description": "xelatex"},
+        {"value": "lualatex", "description": "lualatex"}
+      ]
+    },
+    "extraArguments": {
+      "description": "Extra arguments to pass to the compiler (separated by a comma)",
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "string"
+      }
+    }
   }
 }
