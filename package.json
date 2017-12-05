@@ -1,7 +1,7 @@
 {
   "name": "linter-latex",
   "main": "./lib/linter-latex",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Compile and lint LaTeX files",
   "keywords": [
     "latex",
@@ -34,9 +34,18 @@
       "type": "string",
       "default": "pdflatex",
       "enum": [
-        {"value": "pdflatex", "description": "pdflatex"},
-        {"value": "xelatex", "description": "xelatex"},
-        {"value": "lualatex", "description": "lualatex"}
+        {
+          "value": "pdflatex",
+          "description": "pdflatex"
+        },
+        {
+          "value": "xelatex",
+          "description": "xelatex"
+        },
+        {
+          "value": "lualatex",
+          "description": "lualatex"
+        }
       ]
     },
     "extraArguments": {
